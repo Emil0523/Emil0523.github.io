@@ -20,5 +20,10 @@ body{
 }
 
 a:hover{
+    color: rgb(228, 10, 10);
+}
+
+a{
     color: white;
+    text-decoration: none;
 }
