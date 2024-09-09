@@ -2,21 +2,20 @@ nav {
     background-color: rgba(59, 54, 75, 0.481);
     margin: 0;
     padding: 0;
-    justify-content:center;
     gap: 10px;
 }
 
 h1{
-    margin: 0;
-    padding: 0;
+    margin: 10px;
     color: white;
     font-family: "Nerko One";
-    text-align: center;
 }
 
 body{
     background-color: rgb(35, 31, 44);
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 a:hover{
@@ -24,6 +23,8 @@ a:hover{
 }
 
 a{
+    font-family: "Nerko One";    
     color: white;
     text-decoration: none;
+    font-size: 25px;
 }
