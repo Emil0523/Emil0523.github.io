@@ -2,7 +2,6 @@ nav {
     background-color: rgba(59, 54, 75, 0.481);
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content:center;
     gap: 10px;
 }
@@ -11,12 +10,13 @@ h1{
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Nerko One";    
     text-align: center;
 }
 
 body{
     background-color: rgb(35, 31, 44);
+    text-align: center;
 }
 
 a:hover{

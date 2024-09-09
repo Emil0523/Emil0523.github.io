@@ -2,31 +2,29 @@ nav {
     background-color: rgba(59, 54, 75, 0.481);
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: space-around;
-    gap: 80px;
+    gap: 100px;
 }
 
 h1 {
     margin: 1px;
     padding: 5px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Nerko One";    
     text-align: center;
+    gap: 100;
 }
 
 .Helga{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    font-family: cursive;
+    border-image-width: auto;
+    font-family: "Nerko One";    
     text-align: center;
     color: white;
 }
 
 body{
     background-color: rgb(35, 31, 44);
+    text-align: center;
 }
 
 a:hover{
@@ -34,6 +32,8 @@ a:hover{
 }
 
 a{
+    font-family: "Nerko One";    
     color: white;
     text-decoration: none;
+    font-size: 25px;
 }
