@@ -1,18 +1,14 @@
 nav {
     background-color: rgba(59, 54, 75, 0.481);
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-    gap: 100px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
-    margin: 1px;
-    padding: 5px;
+    margin: 20px;
     color: white;
     font-family: "Nerko One";    
     text-align: center;
-    gap: 100;
 }
 
 .Helga{
@@ -23,6 +19,8 @@ h1 {
 }
 
 body{
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(35, 31, 44);
     text-align: center;
 }
