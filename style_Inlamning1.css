@@ -1,30 +1,40 @@
-nav {
-    background-color: rgba(59, 54, 75, 0.481);
-    margin: 0;
-    padding: 0;
-    gap: 10px;
+body{
+    background-color:#212121;
 }
 
 h1{
-    margin: 10px;
-    color: white;
-    font-family: "Nerko One";
+    font-family: "Roboto", sans-serif;
+    font-size: 100px;
+    color:#f1f1f1;
+    text-align:center;
 }
 
-body{
-    background-color: rgb(35, 31, 44);
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    gap: 15px;
+    width: 70%;
+    margin: 0 auto;
 }
 
-a:hover{
-    color: rgb(228, 10, 10);
+img {
+    max-width: 450px;
+    height: auto
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #f1f1f1;
+    margin-top: 0;
 }
 
 a{
-    font-family: "Nerko One";    
-    color: white;
+    font-family: "Roboto", sans-serif;
+    color: #f1f1f1;
     text-decoration: none;
-    font-size: 25px;
+}
+
+a:hover{
+    color:red;
 }

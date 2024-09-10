@@ -20,16 +20,23 @@
                 <a href="Inlamning5.html">Inläming 5</a>
                 <a href="Inlamning6.html">Inläming 6</a>
             </div>
-            <div class="navbar_eget">
-                <a href="eget.html">Eget Arbete</a>
-            </div>
         </nav>
-    <a href="https://www.tiktok.com/@helga3178"><img class="Helga"src="Helga.png" alt=""></a>
-    <p class="Helga">Haj again, watch my latest tiktok, click on the image!</p>
-    
-    <audio autoplay>
-        <source src="Helga.mp4" type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio>
+    <a href="#"><img class="Helga"src="Helga.png" alt=""></a>
+    <p class="Helga">Haj again its helga here, click on me for a suprise!</p>
+
+    <h2>Helga loves friends🌻</h2>
+    <h2>Helga loves life 🐴</h2>
+    <h2>Helga loves vine🍷</h2>
+
+    <script>
+        var helga = document.querySelector('img');
+
+        helga.addEventListener('click', () => {
+            // helga.style.rotate = '9000deg';
+            // helga.style.scale = 5;
+            helga.classList.add('animate');
+        });
+
+    </script>
 </body>
 </html>
