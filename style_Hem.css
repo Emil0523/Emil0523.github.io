@@ -27,6 +27,8 @@ body{
     padding: 0px;
     background-color: rgb(35, 31, 44);
     text-align: center;
+    background-image: url("bakgrund_hem.png");
+    background-size: cover;
 }
 
 a:hover{
