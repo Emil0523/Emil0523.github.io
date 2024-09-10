@@ -15,6 +15,10 @@ h1 {
     gap: 100;
 }
 
+h2{
+    color: white;
+}
+
 .Helga{
     border-image-width: auto;
     font-family: "Nerko One";    
@@ -37,4 +41,22 @@ a{
     color: white;
     text-decoration: none;
     font-size: 25px;
+}
+
+img {
+    transition: ease-in-out 5000ms;
+    border-radius: 45%;
+}
+ 
+.animate {
+    animation:  spin 10s ;
+}
+ 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(9000deg);
+    }
 }
