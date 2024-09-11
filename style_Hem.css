@@ -11,6 +11,7 @@ h1 {
 }
 
 h2{
+    font-size: 50px;
     color: white;
 }
 
@@ -44,7 +45,6 @@ a{
 
 img {
     transition: ease-in-out 5000ms;
-    border-radius: 45%;
 }
  
 .animate {
@@ -58,4 +58,38 @@ img {
     100% {
         transform: rotate(9000deg);
     }
+}
+
+.container {
+    display: inline-block;
+}
+
+.container img {
+    position: absolute;
+    right:10%;
+    top: 65%;
+    width:400;
+    height:400;
+}
+
+.navbar_nere{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: auto;
+    height: 50px;
+    background-color: rgba(59, 54, 75, 0.481);
+}
+
+.container_click {
+    display: inline-block;
+}
+
+.container_click img {
+    position: absolute;
+    right:25%;
+    top: 170%;
+    width:400;
+    height:400;
 }
