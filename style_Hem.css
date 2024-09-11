@@ -1,5 +1,5 @@
 nav {
-    background-color: rgba(59, 54, 75, 0.481);
+    background-color: rgb(44, 42, 53);
     margin: 0px;
     padding: 0px;
 }
@@ -11,7 +11,8 @@ h1 {
 }
 
 h2{
-    font-size: 50px;
+    font-family: "Nerko One";
+    font-size: 30px;
     color: white;
 }
 
@@ -67,19 +68,19 @@ img {
 .container img {
     position: absolute;
     right:10%;
-    top: 65%;
+    top: 85%;
     width:400;
     height:400;
 }
 
 .navbar_nere{
+    background-color: rgb(44, 42, 53);
     font-size: 25px;
     padding: 0px;
     margin: 0px;
     border: 0px;
     width: auto;
     height: 50px;
-    background-color: rgba(59, 54, 75, 0.481);
 }
 
 .container_click {
@@ -88,8 +89,8 @@ img {
 
 .container_click img {
     position: absolute;
-    right:25%;
-    top: 170%;
+    right:15%;
+    top: 155%;
     width:400;
     height:400;
 }
