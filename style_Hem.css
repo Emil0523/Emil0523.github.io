@@ -69,8 +69,8 @@ img {
     position: absolute;
     right:10%;
     top: 85%;
-    width:400;
-    height:400;
+    width:200;
+    height:200;
 }
 
 .navbar_nere{
@@ -89,8 +89,13 @@ img {
 
 .container_click img {
     position: absolute;
-    right:15%;
-    top: 155%;
-    width:400;
-    height:400;
+    right:37%;
+    top: 165%;
+    width:200px;
+    height:auto;
+}
+
+.fidget_image{
+    width:300px;
+    height: auto;
 }
