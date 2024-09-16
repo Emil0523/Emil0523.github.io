@@ -1,101 +1,68 @@
-nav {
-    background-color: rgb(44, 42, 53);
-    margin: 0px;
-    padding: 0px;
+nav, .navbar_nere {
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    margin: 20px;
-    color: white;
-    font-family: "Nerko One";    
-}
-
-h2{
+h1, h2, .Helga, a {
     font-family: "Nerko One";
-    font-size: 30px;
     color: white;
 }
 
-.Helga{
-    border-image-width: auto;
-    font-family: "Nerko One";    
+nav{
+    h1{
+        font-size: 50px;
+    }
+    a{
+        background-color: rgb(44, 42, 53);
+        border-radius: 5px;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+.Helga {
     text-align: center;
-    color: white;
     font-size: 20px;
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(35, 31, 44);
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(35, 31, 44) url("bakgrund_hem.png") center/cover no-repeat;
     text-align: center;
-    background-image: url("bakgrund_hem.png");
-    background-size: cover;
 }
 
-a:hover{
-    color: rgb(228, 10, 10);
-}
-
-a{
-    font-family: "Nerko One";    
-    color: white;
+a {
     text-decoration: none;
     font-size: 25px;
 }
 
+a:hover {
+    color: #970000;
+    background-color: white;
+}
+
 img {
-    transition: ease-in-out 5000ms;
+    transition: ease-in-out 5s;
 }
- 
+
 .animate {
-    animation:  spin 10s ;
+    animation: spin 10s;
 }
- 
+
 @keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
+    to {
         transform: rotate(9000deg);
     }
 }
 
-.container {
-    display: inline-block;
-}
-
-.container img {
-    position: absolute;
-    right:10%;
-    top: 85%;
-    width:200;
-    height:200;
-}
-
-.navbar_nere{
+.navbar_nere {
     background-color: rgb(44, 42, 53);
-    font-size: 25px;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    width: auto;
+    border: 0;
     height: 50px;
 }
 
-.container_click {
-    display: inline-block;
-}
-
-.container_click img {
-    position: absolute;
-    right:37%;
-    top: 165%;
-    width:200px;
-    height:auto;
-}
-
-.fidget_image{
-    width:300px;
+.fidget_image {
+    width: 300px;
     height: auto;
 }
