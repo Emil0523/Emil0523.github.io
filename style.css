@@ -12,6 +12,7 @@ margin: 0px;
 header {
     font-family: "Bebas Neue", sans-serif;
     background-color: #333;
+    color: white;
     margin: 0px;
     padding: 1px;
     font-size: 35px;
@@ -44,7 +45,8 @@ a {
 }
 
 a:hover {
-    border: 1px solid white;
+    box-sizing: border-box;
+    border: 1.9px solid white;
     background-color: #425858;
 }
 
@@ -58,12 +60,13 @@ a:hover {
 }
 
 .Helga_fade {
+    
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
 .img-fade-in {
-    animation: fadeIn 4s ease-out;
+    animation: fadeIn 5s ease-out;
 }
 
