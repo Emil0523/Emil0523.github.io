@@ -45,6 +45,11 @@ aside{
     margin-bottom: 40px;
 }
 
+.menu li:nth-of-type(2) {
+border-top: 3px solid #fff;
+border-bottom: 3px solid #fff;
+}
+
 .menu li a{
 background-color: aquamarine;
 font-size: 64px;
