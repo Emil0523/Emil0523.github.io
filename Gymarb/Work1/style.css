@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #435756;
+    background-color: #7a8686;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -17,8 +22,6 @@ header {
     padding: 1px;
     font-size: 35px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
 }
 
 ul {
@@ -47,4 +50,12 @@ a {
 a:hover {
     border: 1px solid white;
     background-color: #425858;
+}
+
+.nav_nere {
+    background-color: #333;
+    align-items: center;    
+    padding: 10px;
+    font-size: 20px;
+    color: white;
 }
