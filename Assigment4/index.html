@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +11,23 @@
 </head>
 <body>
     <aside>
+        <div class="aside-wrapper">
         <div class="aside-profile">
             <img src="horse-solid.svg">
         </div>
         <ul class="menu">
-            <li><a href="#">Link 1</a></li>
-            <li><a class="border" href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+            <li><a href="#first">Link 1</a></li>
+            <li><a class="border" href="#second">Link 2</a></li>
+            <li><a href="#third">Link 3</a></li>
         </ul>
+        </div>
     </aside>
     <main>
-        <section>
+        <section id="first">
             <h1>Walla brushan</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni provident delectus consectetur! Ut amet praesentium reprehenderit assumenda doloribus repudiandae fugit cupiditate aliquam id maiores exercitationem quos, vero facere adipisci aliquid.</p>
         </section>
-        <section>
+        <section id="second">
             <h1>hej du där</h1>
             <div class="img">
                 <img src="https://unsplash.it/350">
@@ -30,7 +35,7 @@
                 <img src="https://unsplash.it/350">
             </div>
         </section>
-        <section>
+        <section id="third">
             <h1>sucky sucky 5 dollar</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nisi iusto error natus ex ea. Eum explicabo, optio consectetur obcaecati facere, dicta molestiae, est alias necessitatibus at tenetur ab distinctio?</p>
         </section>

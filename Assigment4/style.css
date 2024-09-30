@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html, body {
     height: 100%;
@@ -9,13 +10,22 @@ body {
     margin:0;
     display: grid;
     grid: auto / 20% 1fr;
+    font-family: "Anton", sans-serif;
 }
 
 aside{
+    background-color: darkblue;
+    position: relative;
+}
+
+.aside-wrapper {
+    position: fixed;
+    width: 20%;
+    height: 100%;
 }
 
 .aside-profile{
-    background-color: #4a0544;
+    /* background-color: #4a0544; */
     height: 40%;
     display: flex;
     justify-content: center;
@@ -32,15 +42,15 @@ aside{
 }
 
 .menu {
-    background-color: aqua;
+    /* background-color: aqua; */
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 
 .menu li{
-    background-color: yellow;
+    /* background-color: yellow; */
     text-align: center;
     margin-bottom: 40px;
 }
@@ -48,16 +58,23 @@ aside{
 .border {
 border-top: 3px solid #fff;
 border-bottom: 3px solid #fff;
+padding: 16px 40px;
 }
 
 .menu li a{
-background-color: aquamarine;
+/* background-color: aquamarine; */
 font-size: 64px;
 color: orange;
 text-decoration: none;
 }
 
 main {
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+section {
+    background-image: linear-gradient(45deg, white, black);
+    min-height: 100vh;
+    padding: 24px;
 }
 
