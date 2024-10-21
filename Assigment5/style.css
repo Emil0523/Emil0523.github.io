@@ -1,15 +1,33 @@
-*{
-    
-}
-
 body{
     margin: 0px;
-    padding: 0px;
-    font-family: Arial, sans-serif;
 }
-.weather{
-    background-color: red;
-    color:white;
+nav{
     display: flex;
-    justify-content:center;
+    background-color: red;
+}
+.hem{
+    font-size: 30px;
+}
+ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    flex:1 1 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+}
+a{
+display: block;
+padding: 15px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+a:hover {
+    background-color: #3333334b;
+    border-radius: 10%;
 }
