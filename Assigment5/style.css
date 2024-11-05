@@ -1,16 +1,20 @@
 body{
     margin: 0px;
+    padding: 0px;
 }
 nav{
     display: flex;
     background-color: red;
+    justify-content: center;
+    align-items: center;
 }
 .hem{
-    font-size: 30px;
+    margin-left: 3%;
+    font-size: 20px;
 }
 ul {
-    margin: 0;
     text-align: center;
+    margin: 0;
     list-style-type: none;
     flex:1 1 0;
 }
@@ -20,14 +24,16 @@ li {
     margin: 0 15px;
 }
 a{
-display: block;
+
 padding: 15px;
 color: white;
+
 text-decoration: none;
-font-size: 30px;
+font-size: 20px;
 }
 
 a:hover {
     background-color: #3333334b;
     border-radius: 10%;
 }
+

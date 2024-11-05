@@ -8,13 +8,15 @@
 </head>
 <body>
     <nav>
-        <p class="hem">Allt i Akustik i Skåne</p>
-        <ul>
-            <li><a id="first" href="#">Om oss</a></li>
-            <li><a id="second "href="#">Kontakt</a></li>
-            <li><a id="third" href="#">Tjänster</a></li>
-            <li><a id="fourth" href="#">Galleri</a></li>
-        </ul>        
+        <p class="hem">Företag</p>
+        <ul class="menu-links">
+            
+              <li><a href="#">Om oss</a></li>
+              <li><a href="#">Kontakt</a></li>
+              <li><a href="#">Tjänster</a></li>
+              <li><a href="#">Galleri</a></li>
+            
+        </ul>
     </nav>
 
     <section class="slide1">
@@ -35,7 +37,14 @@
     <script>
         var rubrik = document.querySelector(".hem").getBoundingClientRect().width
         var listItems = document.querySelectorAll("li")
+
+        window.onload = function(){
+            listItems.forEach(function(item){
+            number.style.transform = "translateX(" + -rubrik /2 + "px)"
+        })
+        }
         
+   
 
     </script>
 </body>
