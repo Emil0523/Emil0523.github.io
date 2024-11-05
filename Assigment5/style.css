@@ -1,39 +1,87 @@
-body{
-    margin: 0px;
-    padding: 0px;
-}
-nav{
-    display: flex;
-    background-color: red;
-    justify-content: center;
-    align-items: center;
-}
-.hem{
-    margin-left: 3%;
-    font-size: 20px;
-}
-ul {
-    text-align: center;
+* {
     margin: 0;
-    list-style-type: none;
-    flex:1 1 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-li {
-    display: inline-block;
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #61818E;
+    color: #333;
+}
+
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.Nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.Nav ul li {
     margin: 0 15px;
 }
-a{
 
-padding: 15px;
-color: white;
-
-text-decoration: none;
-font-size: 20px;
+.Nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
 }
 
-a:hover {
-    background-color: #3333334b;
-    border-radius: 10%;
+.Vin {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
+.Vin img {
+    width: 80px;
+}
+
+.Hoodie, .Keps {
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Hoodie img, .Keps img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Hoodie h1, .Keps h1 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.Hoodie p, .Keps p {
+    font-size: 1em;
+    color: #666;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}

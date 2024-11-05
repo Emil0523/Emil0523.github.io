@@ -1,51 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uppgift 5</title>
+    <title>Helga</title>
 </head>
 <body>
-    <nav>
-        <p class="hem">Företag</p>
-        <ul class="menu-links">
-            
-              <li><a href="#">Om oss</a></li>
-              <li><a href="#">Kontakt</a></li>
-              <li><a href="#">Tjänster</a></li>
-              <li><a href="#">Galleri</a></li>
-            
+    <section class="Nav">
+        <img src="img/Helga.png" alt="Helga Logo">
+        <ul>
+            <li><a href="#">Tiktok</a></li>
+            <li><a href="#">Merch</a></li>
+            <li><a href="#">Jesus</a></li>
         </ul>
-    </nav>
-
-    <section class="slide1">
-
     </section>
     
-    <section class="slide2">
-
+    <section class="Vin">
+        <img src="img/Vin.gif" alt="Vin Gif">
     </section>
     
-    <section class="slide3">
-
-    </section>
-
-    <navbar class="Botten_slide">
-
-    </navbar>
-    <script>
-        var rubrik = document.querySelector(".hem").getBoundingClientRect().width
-        var listItems = document.querySelectorAll("li")
-
-        window.onload = function(){
-            listItems.forEach(function(item){
-            number.style.transform = "translateX(" + -rubrik /2 + "px)"
-        })
-        }
-        
-   
-
-    </script>
+    <div class="products">
+        <section class="Hoodie">
+            <img src="img/Hoodie.png" alt="Hoodie">
+            <h1>Helga's Unisex Heavy Blend™ Hooded Sweatshirt</h1>
+            <p>$56.99 USD</p>
+        </section>
+                <section class="Hoodie">
+            <img src="img/tshirt.png" alt="Hoodie">
+            <h1>Helga's Youth Short Sleeve Tee</h1>
+            <p>$35.99 USD</p>
+        </section>
+        <section class="Keps">
+            <img src="img/Keps.png" alt="Keps">
+            <h1>Helga's Hi Hat with Leather Patch Logo</h1>
+            <p>$19.99 USD</p>
+        </section>
+    </div>
 </body>
 </html>
