@@ -12,11 +12,9 @@
 <body>
     <section class="Nav">
         <img src="img/Helga.png" alt="Helga Logo">
-        <ul>
-            <li><a href="#">Tiktok</a></li>
-            <li><a href="#">Merch</a></li>
-            <li><a href="#">Jesus</a></li>
-        </ul>
+        <div class="cart">
+            <img src="img/cart.svg" alt="Cart">
+        </div>
     </section>
     
     <section class="Vin">
@@ -24,21 +22,47 @@
     </section>
     
     <div class="products">
-        <section class="Hoodie">
+        <section class="Hoodie" data-popup="HoodiePopup" onclick="showPopup(event)">
             <img src="img/Hoodie.png" alt="Hoodie">
             <h1>Helga's Unisex Heavy Blend™ Hooded Sweatshirt</h1>
             <p>$56.99 USD</p>
         </section>
-                <section class="Hoodie">
-            <img src="img/tshirt.png" alt="Hoodie">
+        
+        <div id="HoodiePopup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup('HoodiePopup')">&times;</span>
+                <h2>Helga's Unisex Heavy Blend™ Hooded Sweatshirt</h2>
+                <p>More detailed information about the hoodie...</p>
+            </div>
+        </div>
+        
+        <section class="Tshirt" data-popup="TshirtPopup" onclick="showPopup(event)">
+            <img src="img/tshirt.png" alt="Tshirt">
             <h1>Helga's Youth Short Sleeve Tee</h1>
             <p>$35.99 USD</p>
         </section>
-        <section class="Keps">
+        
+        <div id="TshirtPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup('TshirtPopup')">&times;</span>
+                <h2>Helga's Youth Short Sleeve Tee</h2>
+                <p>More detailed information about the t-shirt...</p>
+            </div>
+        </div>
+        
+        <section class="Keps" data-popup="KepsPopup" onclick="showPopup(event)">
             <img src="img/Keps.png" alt="Keps">
             <h1>Helga's Hi Hat with Leather Patch Logo</h1>
             <p>$19.99 USD</p>
         </section>
-    </div>
+        
+        <div id="KepsPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup('KepsPopup')">&times;</span>
+                <h2>Helga's Hi Hat with Leather Patch Logo</h2>
+                <p>More detailed information about the hat...</p>
+            </div>
+        </div>
 </body>
+<script src="script.js"></script>
 </html>

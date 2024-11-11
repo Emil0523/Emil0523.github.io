@@ -1,40 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Kanit', sans-serif;
-    background-color: #61818E;
-    color: #333;
-}
-
-.Nav {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    background-color: #61818E;
+    color: #f0f0f0;
 }
 
-.Nav img {
+.cart {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.cart img {
     width: 50px;
-    height: 50px;
+    height: auto;
 }
 
-.Nav ul {
-    display: flex;
-    list-style: none;
-}
-
-.Nav ul li {
-    margin: 0 15px;
-}
-
-.Nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 500;
+.right {
+    right: 10px;
 }
 
 .Vin {
@@ -44,11 +28,12 @@ body {
 }
 
 .Vin img {
-    width: 80px;
+    width: 125px;
+    height: 125px;
 }
 
-.Hoodie, .Keps {
-    background-color: #F5F5F5;
+.Hoodie, .Keps, .Tshirt {
+    background-color: #3a3a3a;
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
@@ -57,26 +42,20 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.Hoodie img, .Keps img {
+.Hoodie img, .Keps img, .Tshirt img {
     width: 100%;
     border-radius: 10px;
 }
 
-.Hoodie h1, .Keps h1 {
+.Hoodie h1, .Keps h1, .Tshirt h1 {
     font-size: 1.2em;
     margin: 10px 0;
-    color: #333;
+    color: #f0f0f0;
 }
 
-.Hoodie p, .Keps p {
+.Hoodie p, .Keps p, .Tshirt p {
     font-size: 1em;
-    color: #666;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: #cccccc;
 }
 
 .products {
@@ -84,4 +63,50 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 80%;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-20px);
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -20px);
+}
+
+.popup.show {
+    opacity: 1;
+    transform: translate(-50%, 0);
+    display: block;
+}
+
+.popup.hide {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+}
+
+.popup-content {
+    background-color: #4a4a4a;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+    color: #f0f0f0;
+}
+
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
 }
