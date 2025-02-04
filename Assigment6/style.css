@@ -1,6 +1,30 @@
-nav{
+body{
     margin: 0;
     padding: 0;
-    background-color: #5F5F5F;
+}
+
+.Apor, .Spokdjur, .Hundar{
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+.Apor img, .Spokdjur img, .Hundar img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Apor h1, .Spokdjur h1, .Hundar h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 128px;
+    font-family: "Kanit", serif;
+    font-weight: normal;
     text-align: center;
 }
