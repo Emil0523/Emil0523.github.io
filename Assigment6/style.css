@@ -9,13 +9,44 @@ body{
 }
 
 .Apor{
-    background-color: aqua;
+    background-color: #396430;
+    width: 1920px;
+    height: 1200px;
 }
 
 .Spokdjur{
-    background-color: blue;
+    background-color: #3A7210;
+    width: 1920px;
+    height: 1200px;
 }
 
 .Hundar{
-    background-color: pink;
+    background-color: #1E5A0F;
+    width: 1920px;
+    height: 1200px;
+}
+
+.image-container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px; /* 40px från vänster och höger kant tackar chatGPT*/
+}
+
+.image-container img {
+    margin: 0 10px; /* 20px mellan bilderna (10px på varje sida)  tackar ChatGPT*/
+}
+
+.image-container img:first-child {
+    margin-left: 0; /* Ingen extra marginal på vänstra sidan av första bilden tackar chatGPT*/
+}
+
+.image-container img:last-child {
+    margin-right: 0; /* Ingen extra marginal på högra sidan av sista bilden tackar chatGPT*/
 }
