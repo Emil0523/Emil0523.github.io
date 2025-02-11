@@ -1,23 +1,27 @@
-body {
+body{
     margin: 0;
     padding: 0;
 }
 
-.Apor, .Spokdjur, .Hundar {
+.Apor{
     background-color: #396430;
     width: auto;
     height: 1200px;
 }
 
-.Spokdjur {
+.Spokdjur{
     background-color: #3A7210;
+    width: auto;
+    height: 1200px;
 }
 
-.Hundar {
+.Hundar{
     background-color: #1E5A0F;
+    width: auto;
+    height: 1200px;
 }
 
-h1 {
+h1{
     font-family: "Kanit", serif;
     font-weight: normal;
     text-align: center;
@@ -37,37 +41,46 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px; /* 40px från vänster och höger kant tackar chatGPT */
+    padding: 0px 40px; /* 40px från vänster och höger kant tackar chatGPT*/
     margin-top: 200px;
 }
 
 .image-container img {
-    margin: 0 10px; /* 20px mellan bilderna (10px på varje sida) tackar ChatGPT */
+    margin: 0 10px; /* 20px mellan bilderna (10px på varje sida)  tackar ChatGPT*/
 }
 
 .image-container img:first-child {
-    margin-left: 0; /* Ingen extra marginal på vänstra sidan av första bilden tackar chatGPT */
+    margin-left: 0; /* Ingen extra marginal på vänstra sidan av första bilden tackar chatGPT*/
 }
 
 .image-container img:last-child {
-    margin-right: 0; /* Ingen extra marginal på högra sidan av sista bilden tackar chatGPT */
+    margin-right: 0; /* Ingen extra marginal på högra sidan av sista bilden tackar chatGPT*/
 }
 
-/* Media queries för mobil */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 64px; /* Minska textstorleken för mobil */
-        margin-bottom: 20px; /* Justera mellanrummet mellan text och bilder */
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
     }
 
-    .image-container, .image-container-2 {
-        flex-direction: column; /* Ändra layouten till kolumn för mobil */
+    .Apor, .Spokdjur, .Hundar {
+        width: 600px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin: 0;
+    }
+
+    .image-container-2, .image-container {
+        flex-direction: column;
         align-items: center;
-        padding: 0;
-        margin-top: 20px;
+        padding: 0 20px;
+        margin-top: 50px;
     }
 
     .image-container img, .image-container-2 img {
-        margin: 10px 0; /* Justera mellanrummet mellan bilderna för mobil */
+        margin: 10px 0;
     }
 }
