@@ -56,31 +56,3 @@ h1{
 .image-container img:last-child {
     margin-right: 0; /* Ingen extra marginal på högra sidan av sista bilden tackar chatGPT*/
 }
-
-@media only screen and (max-width: 480px) {
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    .Apor, .Spokdjur, .Hundar {
-        width: 600px;
-        height: auto;
-    }
-
-    h1 {
-        font-size: 48px;
-        margin: 0;
-    }
-
-    .image-container-2, .image-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 20px;
-        margin-top: 50px;
-    }
-
-    .image-container img, .image-container-2 img {
-        margin: 10px 0;
-    }
-}
