@@ -1,58 +1,63 @@
-body{
+@font-face {
+    font-family: "Kanit";
+    src: url(Kanit-Regular.ttf) format('truetype');
+}
+
+body {
     margin: 0;
     padding: 0;
 }
 
-.Apor{
+.Apor, .Spokdjur, .Hundar {
+    width: auto;
+    height: 1200px;
+}
+
+.Apor {
     background-color: #396430;
-    width: auto;
-    height: 1200px;
 }
 
-.Spokdjur{
+.Spokdjur {
     background-color: #3A7210;
-    width: auto;
-    height: 1200px;
 }
 
-.Hundar{
+.Hundar {
     background-color: #1E5A0F;
-    width: auto;
-    height: 1200px;
 }
 
-h1{
+h1 {
     font-family: "Kanit", serif;
     font-weight: normal;
     text-align: center;
-    color: red;
+    color: white;
     font-size: 128px;
     margin: 0;
 }
 
-.image-container-2 {
+.image-container, .image-container-2 {
     display: flex;
     justify-content: space-around;
     margin-top: 200px;
-    padding: 0 325px;
 }
 
 .image-container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px; /* 40px från vänster och höger kant tackar chatGPT*/
-    margin-top: 200px;
+    padding: 0 40px;
 }
 
-.image-container img {
-    margin: 0 10px; /* 20px mellan bilderna (10px på varje sida)  tackar ChatGPT*/
+.image-container-2 {
+    padding: 0 325px;
 }
 
-.image-container img:first-child {
-    margin-left: 0; /* Ingen extra marginal på vänstra sidan av första bilden tackar chatGPT*/
+.image-container img, .image-container-2 img {
+    margin: 0 10px;
 }
 
-.image-container img:last-child {
-    margin-right: 0; /* Ingen extra marginal på högra sidan av sista bilden tackar chatGPT*/
+.image-container img:first-child, .image-container-2 img:first-child {
+    margin-left: 0;
+}
+
+.image-container img:last-child, .image-container-2 img:last-child {
+    margin-right: 0;
 }
