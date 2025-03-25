@@ -17,6 +17,13 @@ body {
     background-color: #396430;
 }
 
+    @media screen and (max-width: 400px) {
+        .Apor {
+            height: 500px;
+            width: 100%;
+        }
+    }
+
 .Spokdjur {
     background-color: #3A7210;
 }
