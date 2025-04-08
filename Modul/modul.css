@@ -125,16 +125,20 @@ h1 {
 
     .Hundar img:nth-of-type(1){ 
         content:url(./img_respon/WierdAnimal2.2.png);
-        max-width: 155px;
-        max-height: 155px;
+        max-width: 135px;
+        max-height: 135px;
 
     }
     .Hundar img:nth-of-type(2){
         content:url(./img_respon/WierdAnimal8.8.png);
-        max-width: 155px;
-        max-height: 155px;
+        max-width: 135px;
+        max-height: 135px;
     }
     .Hundar .image-container-2 {
         margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
     }
 }
