@@ -46,13 +46,13 @@ h1 {
     padding: 0 40px;
 }
 
-.image-container-2 {
+/* .image-container-2 {
     padding: 0 325px;
-}
+} */
 
-.image-container img, .image-container-2 img {
+/* .image-container img, .image-container-2 img {
     margin: 0 10px;
-}
+} */
 
 .image-container img:first-child, .image-container-2 img:first-child {
     margin-left: 0;
@@ -68,7 +68,7 @@ h1 {
 
 @media only screen and (max-width: 400px) {
 
-    .Apor, .Spokdjur, .Hundar {
+    .Apor, .Spokdjur{
         width: 100%;
         height: 800px;
     }
@@ -114,10 +114,23 @@ h1 {
         place-self: center;
     }
 
+    .Hundar{
+        width: 100%;
+        height: 400px;
+    }
+
     .Hundar img:nth-of-type(1){ 
-        content:url(./img_respon/WierdAnimal2.2.png)
+        content:url(./img_respon/WierdAnimal2.2.png);
+        max-width: 155px;
+        max-height: 155px;
+
     }
     .Hundar img:nth-of-type(2){
-        content:url(./img_respon/WierdAnimal8.8.png)
+        content:url(./img_respon/WierdAnimal8.8.png);
+        max-width: 155px;
+        max-height: 155px;
+    }
+    .Hundar .image-container-2 {
+        margin-top: 70px;
     }
 }
